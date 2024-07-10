@@ -31,7 +31,7 @@ def input_image_setup(uploaded_file):
 
 
 st.header("Food Analyzer AI")
-input = st.text_input("", key="input",disabled=True)
+input = st.text_input("", key="input",disabled=True, placeholder="Enjoy Our Model")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 image = ""
 if uploaded_file is not None:
