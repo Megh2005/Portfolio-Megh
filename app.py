@@ -20,10 +20,15 @@ project_page_2 = st.Page(
     icon=":material/vaccines:",
 )
 
+project_page_3 = st.Page(
+    page="views/privacy.py",
+    title="Privacy Policy",
+    icon=":material/admin_panel_settings:",
+)
+
 # SETTING LOGO AND ICONS
 st.logo("assets/logo.png")
 st.sidebar.text("Made with 💝 by Megh")
-
 
 
 # SET NAVIGATION ACTION
@@ -31,6 +36,7 @@ pg = st.navigation(
     {
         "Info": [about_page],
         "Quick Access": [project_page_1, project_page_2],
+        "Privacy Policy": [project_page_3],
     }
 )
 pg.run()
