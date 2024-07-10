@@ -33,7 +33,7 @@ st.write(
 
 
 st.write("\n")
-st.subheader("Technical Skills",anchor=False)
+st.subheader("Technical Skills", anchor=False)
 st.write(
     """
 - Programming Languages : C, Python, C++
@@ -48,12 +48,12 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://linkedin.com",
     "GitHub": "https://github.com/Megh2005",
     "Twitter": "https://twitter.com/iammeghdeb",
-    "Linktree" : "https://linktr.ee/meghdeb",
-    "Email" : "iammeghdeb@gmail.com"
+    "Linktree": "https://linktr.ee/meghdeb",
+    "Email": "iammeghdeb@gmail.com",
 }
 
 st.write("\n")
-st.subheader("My Socials",anchor=False)
+st.subheader("My Socials", anchor=False)
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
