@@ -10,19 +10,21 @@ about_page = st.Page(
 
 project_page_1 = st.Page(
     page="views/food.py",
-    title="Food Analyzer | Megh",
+    title="Food Analyzer AI",
     icon=":material/fastfood:",
 )
 
 project_page_2 = st.Page(
-    page="views/chatbot.py",
-    title="Chatbot | Megh",
-    icon=":material/android:",
+    page="views/vaccine.py",
+    title="Covid Vaccine Finder",
+    icon=":material/vaccines:",
 )
 
 # SETTING LOGO AND ICONS
 st.logo("assets/logo.png")
 st.sidebar.text("Made with 💝 by Megh")
+
+
 
 # SET NAVIGATION ACTION
 pg = st.navigation(
