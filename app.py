@@ -3,7 +3,7 @@ import streamlit as st
 # SETTING UP ROUTES & PAGES
 about_page = st.Page(
     page="views/about.py",
-    title="About Me | Megh",
+    title="Portfolio | Megh",
     icon=":material/account_circle:",
     default=True,
 )
